@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+    cout << "Welcome to the official Currency Converter, created by Kyle Duong\n";
+    cout << "Please enter amount in CAD: ";
+
+    double CAD;
+    cin >> CAD;
+
+    cout << "You have entered $" << CAD << " (CAD)\n";
+
+    cout << "Conversions:\n";
+    cout << "$" << CAD * 0.77 << " (USD)\n";
+    cout << "$" << CAD * 0.73 << " (EURO)\n";
+    cout << "$" << CAD * 105.38 << " (YEN)\n";
+
+    return 0;
+
+}
