@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+    double num1, num2;
+
+    cout << "Welcome to Kyle's Simple Calculator!" << endl;
+
+    cout << "\nEnter first number: ";
+    cin >> num1;
+
+    cout << "Enter second number: ";
+    cin >> num2;
+
+    double sum, product;
+    sum = num1 + num2;
+    product = num1 * num2;
+
+    cout << "\nThe sum of the inputted numbers: " << sum << endl;
+    cout << "\nThe product of the inputted numbers: " << product << endl;
+
+    return 0;
+
+}
+
