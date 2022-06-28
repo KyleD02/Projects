@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+
+int main()
+{
+
+   cout << "Welcome to Kyle's final price calculator!\n" << endl;
+   cout << "Enter a price of your item to see the total price including tax: $";
+
+   double price;
+   cin >> price;
+
+   cout << "\nYou have entered the price: $" << price << endl;
+
+   double priceTax, priceFinal;
+   priceTax = price * 0.13;
+   priceFinal = price + priceTax;
+
+   cout << "\nThe final price including tax is: $ " << priceFinal << endl;
+
+
+    return 0;
+
+}
+
